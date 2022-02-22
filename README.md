@@ -1,6 +1,9 @@
 # SunloginBatchRCE
 向日葵RCE漏洞检测的相关脚本
 
+
+sunloginRCEBatchScan.py 批量异步端口扫描+响应特征检测+漏洞检测
+
 usage: sunloginRCEBatchScan.py [-h] [-i IP] [-p PORTS] [-v] [-c CMD] [-x PROXIES]
 
     Sun Login RCE CMD ...
