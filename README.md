@@ -1,5 +1,5 @@
 # SunloginBatchRCE
-向日葵RCE漏洞检测的相关脚本
+向日葵RCE漏洞检测的相关脚本,仅用于合法情景下的漏洞检测验证
 
 
 sunloginRCEBatchScan.py 批量异步端口扫描+响应特征检测+漏洞检测
