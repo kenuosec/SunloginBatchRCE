@@ -1,5 +1,7 @@
 # SunloginBatchRCE
-向日葵RCE漏洞检测的相关脚本,仅用于合法情景下的漏洞检测验证
+
+
+向日葵RCE漏洞检测的相关脚本,仅用于合法情景下的漏洞检测验证，对于不合法的行为说不
 
 
 sunloginRCEBatchScan.py 纯PY实现的批量主机+异步端口扫描+响应特征检测+Sunlogin漏洞检测
@@ -26,7 +28,7 @@ usage: sunloginRCEBatchScan.py [-h] [-i IP] [-p PORTS] [-v] [-c CMD] [-x PROXIES
 
 usage: sunloginRCE.py [-h] [-i HOST] [-p PROXIES]
 
-Sun Login RCE CMD ...
+纯PY实现的Sunlogin漏洞验证,较简单的命令执行EXP
 
     optional arguments:
       -h, --help            show this help message and exit
@@ -37,6 +39,10 @@ Sun Login RCE CMD ...
                            
                            
 Usage: sunloginRCE+.py [-h] [-i HOST] [-p PROXIES] [-g GET]
+
+
+纯PY实现的Sunlogin漏洞验证,较简单的命令执行EXP，并且支持从本机向日葵配置文件中自动获取IP和端口号用于本机漏洞检测.(来自66的功能增加)
+
 
 optional arguments:
   -h, --help            show this help message and exit
