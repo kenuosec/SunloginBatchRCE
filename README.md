@@ -2,7 +2,11 @@
 向日葵RCE漏洞检测的相关脚本,仅用于合法情景下的漏洞检测验证
 
 
-sunloginRCEBatchScan.py 批量异步端口扫描+响应特征检测+漏洞检测
+sunloginRCEBatchScan.py 纯PY实现的批量主机+异步端口扫描+响应特征检测+Sunlogin漏洞检测
+
+
+端口扫描和端口识别提取自infoport项目中的异步TCP端口扫描及tcp指纹识别项.
+
 
 usage: sunloginRCEBatchScan.py [-h] [-i IP] [-p PORTS] [-v] [-c CMD] [-x PROXIES]
 
