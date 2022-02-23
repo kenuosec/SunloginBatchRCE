@@ -7,7 +7,7 @@
 sunloginRCEBatchScan.py 纯PY实现的批量主机+异步端口扫描+响应特征检测+Sunlogin漏洞检测
 
 
-端口扫描和端口识别提取自infoport项目中的异步TCP端口扫描及tcp指纹识别项.
+端口扫描和端口识别提取自infoport项目中的异步TCP端口扫描及tcp指纹识别项，也非常适合添加到任意的POC脚本中，给脚本增加批量IP和端口扫描功能。
 
 
 usage: sunloginRCEBatchScan.py [-h] [-i IP] [-p PORTS] [-v] [-c CMD] [-x PROXIES]
