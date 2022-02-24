@@ -44,14 +44,14 @@ Usage: sunloginRCE+.py [-h] [-i HOST] [-p PROXIES] [-g GET]
 纯PY实现的Sunlogin漏洞验证,较简单的命令执行EXP，并且支持从本机向日葵配置文件中自动获取IP和端口号用于本机漏洞检测.(来自66的功能增加)
 
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -i HOST, --host HOST  Specifies a ip:port
-  -p PROXIES, --proxies PROXIES
-                        Specify the requests proxy address, support Socks5 and HTTP, for example: http://127.0.0.1:8080 or
-                        socks5://127.0.0.1:1080
-  -g GET, --get GET     Get server ip:port,The default path:C:\ProgramData\Oray\SunloginClient\log
-  
+    optional arguments:
+      -h, --help            show this help message and exit
+      -i HOST, --host HOST  Specifies a ip:port
+      -p PROXIES, --proxies PROXIES
+                            Specify the requests proxy address, support Socks5 and HTTP, for example: http://127.0.0.1:8080 or
+                            socks5://127.0.0.1:1080
+      -g GET, --get GET     Get server ip:port,The default path:C:\ProgramData\Oray\SunloginClient\log
+
 
 
 
